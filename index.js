@@ -26,5 +26,8 @@ else if  (msg.text.toString().toLowerCase().indexOf("k") > -1) {
 else if  (msg.text.toString().toLowerCase().indexOf("y") > -1) {
     bot.sendMessage(msg.chat.id, "no te conozco  " );
 }
+else if (msg.text.toString().toLowerCase().indexOf("/unmeme") > -1) {
+    bot.sendMessage(msg.chat.id, "http://generadordememesonline.com/media/created/kywbyb.jpg");
+}
 });
 
